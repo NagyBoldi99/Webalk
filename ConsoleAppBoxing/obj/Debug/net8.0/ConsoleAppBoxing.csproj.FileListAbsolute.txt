@@ -1,0 +1,15 @@
+D:\programozás\github\Webalk\ConsoleAppBoxing\bin\Debug\net8.0\ConsoleAppBoxing.exe
+D:\programozás\github\Webalk\ConsoleAppBoxing\bin\Debug\net8.0\ConsoleAppBoxing.deps.json
+D:\programozás\github\Webalk\ConsoleAppBoxing\bin\Debug\net8.0\ConsoleAppBoxing.runtimeconfig.json
+D:\programozás\github\Webalk\ConsoleAppBoxing\bin\Debug\net8.0\ConsoleAppBoxing.dll
+D:\programozás\github\Webalk\ConsoleAppBoxing\bin\Debug\net8.0\ConsoleAppBoxing.pdb
+D:\programozás\github\Webalk\ConsoleAppBoxing\obj\Debug\net8.0\ConsoleAppBoxing.GeneratedMSBuildEditorConfig.editorconfig
+D:\programozás\github\Webalk\ConsoleAppBoxing\obj\Debug\net8.0\ConsoleAppBoxing.AssemblyInfoInputs.cache
+D:\programozás\github\Webalk\ConsoleAppBoxing\obj\Debug\net8.0\ConsoleAppBoxing.AssemblyInfo.cs
+D:\programozás\github\Webalk\ConsoleAppBoxing\obj\Debug\net8.0\ConsoleAppBoxing.csproj.CoreCompileInputs.cache
+D:\programozás\github\Webalk\ConsoleAppBoxing\obj\Debug\net8.0\ConsoleAppBoxing.sourcelink.json
+D:\programozás\github\Webalk\ConsoleAppBoxing\obj\Debug\net8.0\ConsoleAppBoxing.dll
+D:\programozás\github\Webalk\ConsoleAppBoxing\obj\Debug\net8.0\refint\ConsoleAppBoxing.dll
+D:\programozás\github\Webalk\ConsoleAppBoxing\obj\Debug\net8.0\ConsoleAppBoxing.pdb
+D:\programozás\github\Webalk\ConsoleAppBoxing\obj\Debug\net8.0\ConsoleAppBoxing.genruntimeconfig.cache
+D:\programozás\github\Webalk\ConsoleAppBoxing\obj\Debug\net8.0\ref\ConsoleAppBoxing.dll
