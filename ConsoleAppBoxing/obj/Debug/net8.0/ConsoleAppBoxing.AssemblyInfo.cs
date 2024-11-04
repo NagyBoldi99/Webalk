@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleAppBoxing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+277328ca312b419bbc40fa3c02a108de5a4b1489")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2bde6da93c6f8cb6fef418761e4a8818662a1ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleAppBoxing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleAppBoxing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,7 +9,8 @@ var app = builder.Build();
 
 app.MapPost("/", (Todo todo) => {
     if (todo is not null) {
-        todo.Name = todo.NameField;
+        todo.Name = "Luke " + todo.Name;
+        todo.IsComplete = !todo.IsComplete;
     }
     return todo;
 });
@@ -24,7 +25,7 @@ class Todo {
 
 /**
 
-Test: make POST request with this json:
+Test: make POST reequest with this json:
 
 {
 "name": "Skywalker",

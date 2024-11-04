@@ -1,0 +1,9 @@
+D:\programozás\github\Webalk\Webalk_c_StorageProgram\obj\Debug\net8.0\Webalk_c_StorageProgram.csproj.AssemblyReference.cache
+D:\programozás\github\Webalk\Webalk_c_StorageProgram\obj\Debug\net8.0\Webalk_c_StorageProgram.GeneratedMSBuildEditorConfig.editorconfig
+D:\programozás\github\Webalk\Webalk_c_StorageProgram\obj\Debug\net8.0\Webalk_c_StorageProgram.AssemblyInfoInputs.cache
+D:\programozás\github\Webalk\Webalk_c_StorageProgram\obj\Debug\net8.0\Webalk_c_StorageProgram.AssemblyInfo.cs
+D:\programozás\github\Webalk\Webalk_c_StorageProgram\obj\Debug\net8.0\Webalk_c_StorageProgram.csproj.CoreCompileInputs.cache
+D:\programozás\github\Webalk\Webalk_c_StorageProgram\obj\Debug\net8.0\Webalk_c_StorageProgram.MvcApplicationPartsAssemblyInfo.cache
+D:\programozás\github\Webalk\Webalk_c_StorageProgram\obj\Debug\net8.0\Webalk_c_StorageProgram.RazorAssemblyInfo.cache
+D:\programozás\github\Webalk\Webalk_c_StorageProgram\obj\Debug\net8.0\Webalk_c_StorageProgram.RazorAssemblyInfo.cs
+D:\programozás\github\Webalk\Webalk_c_StorageProgram\obj\Debug\net8.0\Webalk_c_StorageProgram.sourcelink.json
