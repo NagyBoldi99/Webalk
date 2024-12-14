@@ -12,6 +12,22 @@ public class RaktarAlkalmazasContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseOracle("name=ConnectionStrings:RaktarAlkalmazasDB");
+        optionsBuilder.UseOracle("name=ConnectionStrings:StorageDB");
     }
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Esemenyek>(entity =>
+        {
+            entity.Property(e => e.EsemenyNev).HasColumnName("ESEMENYNEV");
+            entity.Property(e => e.Datum).HasColumnName("DATUM");
+            entity.Property(e => e.Helyszin).HasColumnName("HELYSZIN");
+            entity.Property(e => e.Leiras).HasColumnName("LEIRAS");
+            entity.Property(e => e.EsemenyId).HasColumnName("ESEMENYID");
+        });
+
+        base.OnModelCreating(modelBuilder);
+    }
+
+
+
 }

@@ -32,7 +32,7 @@
     <header id="header">
         <h1 class="fade-in">Raktár Kiadó/Áruló</h1>
     </header>
-    
+
     <nav class="menu">
         <a href="events.html">Események</a>
         <a href="contact.html">Kapcsolat</a>
@@ -44,19 +44,44 @@
         <p>Fedezze fel a legjobb lehetőségeket raktárbérlésre vagy vásárlásra.</p>
 
         <h3>Legújabb események</h3>
-        <ul>
-            <li>Licit esemény – 2024. november 5.</li>
-            <li>Bolhapiac – 2024. november 10.</li>
-            <li>Kiárusítás – 2024. november 20.</li>
+        <ul id="events-list">
+            <!-- Events will be populated here by JavaScript -->
         </ul>
 
+
         <p><a href="events.html">További események megtekintése</a></p>
-        
+
         <img src="warehouse.jpg" alt="Raktár kép" width="300" height="200">
     </section>
 
     <footer>
         <p>&copy; 2024 Raktár Kiadó/Áruló</p>
     </footer>
+
+    <script>
+        async function loadEvents() {
+            try {
+                const response = await fetch('/api/events');
+                const events = await response.json();
+                const eventsList = document.getElementById('events-list');
+
+                // Clear the list first
+                eventsList.innerHTML = '';
+
+                // Populate the list with events from the database
+                events.forEach(event => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `${event.esemenyNev} – ${new Date(event.datum).toLocaleDateString()} – ${event.helyszin}`;
+                    eventsList.appendChild(listItem);
+                });
+            } catch (error) {
+                console.error('Error loading events:', error);
+            }
+        }
+
+        // Load events when the page loads
+        window.onload = loadEvents;
+    </script>
+
 </body>
 </html>

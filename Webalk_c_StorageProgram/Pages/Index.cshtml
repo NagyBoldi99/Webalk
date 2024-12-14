@@ -1,10 +1,37 @@
 ﻿@page
 @model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Események Listája</title>
+</head>
+<body>
+    <h1>Események</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Név</th>
+                <th>Dátum</th>
+                <th>Helyszín</th>
+                <th>Leírás</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var esemeny in Model.Esemenyek)
+            {
+                <tr>
+                    <td>@esemeny.EsemenyId</td>
+                    <td>@esemeny.EsemenyNev</td>
+                    <td>@esemeny.Datum.ToShortDateString()</td>
+                    <td>@esemeny.Helyszin</td>
+                    <td>@esemeny.Leiras</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>

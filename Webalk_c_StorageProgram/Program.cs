@@ -2,15 +2,13 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Adatbázis kapcsolat karakterlánca
-var connectionString = builder.Configuration.GetConnectionString("RaktarAlkalmazasDB");
-
+builder.Services.AddControllers();
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-// Regisztráljuk a DbContext-et az Entity Framework számára
-builder.Services.AddDbContext<DbContext>(options =>
-    options.UseOracle(connectionString));
+// Register DbContext with Oracle connection
+builder.Services.AddDbContext<RaktarAlkalmazasContext>(options =>
+    options.UseOracle(builder.Configuration.GetConnectionString("StorageDB")));
 
 var app = builder.Build();
 
@@ -21,13 +19,12 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
+app.MapControllers();
 app.UseHttpsRedirection();
+app.UseDefaultFiles();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
-
 app.MapRazorPages();
-
 app.Run();

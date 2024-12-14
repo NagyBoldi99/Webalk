@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Webalk_c_StorageProgram.props" />
+</Project>

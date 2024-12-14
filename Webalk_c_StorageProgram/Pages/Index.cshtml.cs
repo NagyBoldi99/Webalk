@@ -1,20 +1,29 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 
-namespace Webalk_c_StorageProgram.Pages
+public class IndexModel : PageModel
 {
-    public class IndexModel : PageModel
+    private readonly RaktarAlkalmazasContext _context;
+
+    public List<Esemenyek> Esemenyek { get; set; }
+
+    public IndexModel(RaktarAlkalmazasContext context)
     {
-        private readonly ILogger<IndexModel> _logger;
+        _context = context;
+    }
 
-        public IndexModel(ILogger<IndexModel> logger)
-        {
-            _logger = logger;
-        }
-
-        public void OnGet()
-        {
-
-        }
+    public async Task OnGetAsync()
+{
+    Esemenyek = await _context.Esemenyek.ToListAsync();
+    if (Esemenyek == null || !Esemenyek.Any())
+    {
+        Console.WriteLine("Nincsenek események az adatbázisban.");
+    }
+    else
+    {
+        Console.WriteLine($"{Esemenyek.Count} események lettek lekérve.");
     }
 }
+
+}
+

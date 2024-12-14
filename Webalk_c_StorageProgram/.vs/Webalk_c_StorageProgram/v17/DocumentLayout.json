@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|d:\\programoz\u00E1s\\github\\webalk\\webalk_c_storageprogram\\esemeny_resztvevok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|solutionrelative:esemeny_resztvevok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|d:\\programoz\u00E1s\\github\\webalk\\webalk_c_storageprogram\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|solutionrelative:dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|d:\\programoz\u00E1s\\github\\webalk\\webalk_c_storageprogram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\Controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|d:\\programoz\u00E1s\\github\\webalk\\webalk_c_storageprogram\\esemenyek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|solutionrelative:esemenyek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|d:\\programoz\u00E1s\\github\\webalk\\webalk_c_storageprogram\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|d:\\programoz\u00E1s\\github\\webalk\\webalk_c_storageprogram\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|d:\\programoz\u00E1s\\github\\webalk\\webalk_c_storageprogram\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|solutionrelative:controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|d:\\programoz\u00E1s\\github\\webalk\\webalk_c_storageprogram\\esemeny_resztvevok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913084B4-15EA-4BD7-9340-3EFD81403200}|Webalk_c_StorageProgram.csproj|solutionrelative:esemeny_resztvevok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-04T11:42:29.298Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\DbContext.cs",
+              "RelativeDocumentMoniker": "DbContext.cs",
+              "ToolTip": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\DbContext.cs",
+              "RelativeToolTip": "DbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T12:03:07.621Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:57:39.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T15:31:23.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Esemenyek.cs",
+              "DocumentMoniker": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\Esemenyek.cs",
+              "RelativeDocumentMoniker": "Esemenyek.cs",
+              "ToolTip": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\Esemenyek.cs",
+              "RelativeToolTip": "Esemenyek.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:29:02.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Esemeny_Resztvevok.cs",
               "DocumentMoniker": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\Esemeny_Resztvevok.cs",
               "RelativeDocumentMoniker": "Esemeny_Resztvevok.cs",
               "ToolTip": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\Esemeny_Resztvevok.cs",
               "RelativeToolTip": "Esemeny_Resztvevok.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T12:18:50.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Controller.cs",
               "DocumentMoniker": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\Controller.cs",
               "RelativeDocumentMoniker": "Controller.cs",
               "ToolTip": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\Controller.cs",
               "RelativeToolTip": "Controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T12:15:10.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DbContext.cs",
-              "DocumentMoniker": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\DbContext.cs",
-              "RelativeDocumentMoniker": "DbContext.cs",
-              "ToolTip": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\DbContext.cs",
-              "RelativeToolTip": "DbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T12:03:07.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\programoz\u00E1s\\github\\Webalk\\Webalk_c_StorageProgram\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-04T11:42:29.298Z"
             }
           ]
         }
